@@ -1,0 +1,153 @@
+﻿  file.cpp
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Data\Advanced Programming\Project1\Ap1\structure.h(133,27): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  main.cpp
+D:\Data\Advanced Programming\Project1\Ap1\menu.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Data\Advanced Programming\Project1\Ap1\structure.h(133,27): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(179,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(170): message : 在编译 类 模板 成员函数“myVector<T> &myVector<T>::operator =(const myVector<T> &)”时
+          with
+          [
+              T=User
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\file.h(129): message : 查看对正在编译的函数 模板 实例化“myVector<T> &myVector<T>::operator =(const myVector<T> &)”的引用
+          with
+          [
+              T=User
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\file.h(125): message : 在编译 类 模板 成员函数“file<User>::file(std::string)”时
+D:\Data\Advanced Programming\Project1\Ap1\main.cpp(7): message : 查看对正在编译的函数 模板 实例化“file<User>::file(std::string)”的引用
+D:\Data\Advanced Programming\Project1\Ap1\main.cpp(7): message : 查看对正在编译的 类 模板 实例化“file<User>”的引用
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(76,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(72): message : 在编译 类 模板 成员函数“myVector<Auction_item>::myVector(const myVector<Auction_item> &)”时
+D:\Data\Advanced Programming\Project1\Ap1\structure.h(139): message : 查看对正在编译的函数 模板 实例化“myVector<Auction_item>::myVector(const myVector<Auction_item> &)”的引用
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(129,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(112): message : 在编译 类 模板 成员函数“void myVector<T>::push_back(const T &)”时
+          with
+          [
+              T=User
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\file.h(163): message : 查看对正在编译的函数 模板 实例化“void myVector<T>::push_back(const T &)”的引用
+          with
+          [
+              T=User
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\file.h(162): message : 在编译 类 模板 成员函数“void file<User>::add(T)”时
+          with
+          [
+              T=User
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\file.h(178): message : 查看对正在编译的函数 模板 实例化“void file<User>::add(T)”的引用
+          with
+          [
+              T=User
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\file.h(168): message : 在编译 类 模板 成员函数“void file<User>::load(void)”时
+D:\Data\Advanced Programming\Project1\Ap1\file.h(158): message : 查看对正在编译的函数 模板 实例化“void file<User>::load(void)”的引用
+D:\Data\Advanced Programming\Project1\Ap1\file.h(139): message : 在编译 类 模板 成员函数“void file<User>::open(void)”时
+D:\Data\Advanced Programming\Project1\Ap1\main.cpp(10): message : 查看对正在编译的函数 模板 实例化“void file<User>::open(void)”的引用
+  menu.cpp
+D:\Data\Advanced Programming\Project1\Ap1\menu.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Data\Advanced Programming\Project1\Ap1\structure.h(133,27): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(69,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(162,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(226,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(253,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(306,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(373,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(421,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(475,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(604,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(695,31): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(736,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(759,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(764,25): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(837,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(852,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(872,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(76,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(72): message : 在编译 类 模板 成员函数“myVector<Auction_item>::myVector(const myVector<Auction_item> &)”时
+D:\Data\Advanced Programming\Project1\Ap1\structure.h(139): message : 查看对正在编译的函数 模板 实例化“myVector<Auction_item>::myVector(const myVector<Auction_item> &)”的引用
+D:\Data\Advanced Programming\Project1\Ap1\structure.h(114): message : 查看对正在编译的 类 模板 实例化“myVector<Auction_item>”的引用
+D:\Data\Advanced Programming\Project1\Ap1\file.h(189,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\file.h(186): message : 在编译 类 模板 成员函数“void file<User>::save(void)”时
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(901): message : 查看对正在编译的函数 模板 实例化“void file<User>::save(void)”的引用
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(100): message : 查看对正在编译的 类 模板 实例化“file<User>”的引用
+D:\Data\Advanced Programming\Project1\Ap1\file.h(202,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\file.h(196): message : 在编译 类 模板 成员函数“void file<User>::show(void)”时
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(101): message : 查看对正在编译的函数 模板 实例化“void file<User>::show(void)”的引用
+D:\Data\Advanced Programming\Project1\Ap1\file.h(48,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\file.h(45): message : 在编译 类 模板 成员函数“void file<Goods>::check(file<User> *,file<Order> *)”时
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(211): message : 查看对正在编译的函数 模板 实例化“void file<Goods>::check(file<User> *,file<Order> *)”的引用
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(106,5): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(105): message : 在编译 类 模板 成员函数“T &myVector<T>::operator [](int)”时
+          with
+          [
+              T=Goods
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(697): message : 查看对正在编译的函数 模板 实例化“T &myVector<T>::operator [](int)”的引用
+          with
+          [
+              T=Goods
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\file.h(19): message : 查看对正在编译的 类 模板 实例化“myVector<T>”的引用
+          with
+          [
+              T=Goods
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(129,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(112): message : 在编译 类 模板 成员函数“void myVector<T>::push_back(const T &)”时
+          with
+          [
+              T=Goods
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\file.h(163): message : 查看对正在编译的函数 模板 实例化“void myVector<T>::push_back(const T &)”的引用
+          with
+          [
+              T=Goods
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\file.h(162): message : 在编译 类 模板 成员函数“void file<Goods>::add(T)”时
+          with
+          [
+              T=Goods
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\menu.cpp(678): message : 查看对正在编译的函数 模板 实例化“void file<Goods>::add(T)”的引用
+          with
+          [
+              T=Goods
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(179,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(170): message : 在编译 类 模板 成员函数“myVector<Auction_item> &myVector<Auction_item>::operator =(const myVector<Auction_item> &)”时
+D:\Data\Advanced Programming\Project1\Ap1\structure.h(139): message : 查看对正在编译的函数 模板 实例化“myVector<Auction_item> &myVector<Auction_item>::operator =(const myVector<Auction_item> &)”的引用
+  structure.cpp
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Data\Advanced Programming\Project1\Ap1\structure.h(133,27): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+D:\Data\Advanced Programming\Project1\Ap1\structure.cpp(42,14): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\structure.cpp(55,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(129,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(112): message : 在编译 类 模板 成员函数“void myVector<Auction_item>::push_back(const T &)”时
+          with
+          [
+              T=Auction_item
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\structure.cpp(81): message : 查看对正在编译的函数 模板 实例化“void myVector<Auction_item>::push_back(const T &)”的引用
+          with
+          [
+              T=Auction_item
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\structure.h(114): message : 查看对正在编译的 类 模板 实例化“myVector<Auction_item>”的引用
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(106,5): warning C4018: “<”: 有符号/无符号不匹配
+D:\Data\Advanced Programming\Project1\Ap1\myVector.h(105): message : 在编译 类 模板 成员函数“T &myVector<T>::operator [](int)”时
+          with
+          [
+              T=Auction_item
+          ]
+D:\Data\Advanced Programming\Project1\Ap1\structure.cpp(44): message : 查看对正在编译的函数 模板 实例化“T &myVector<T>::operator [](int)”的引用
+          with
+          [
+              T=Auction_item
+          ]
+  正在生成代码...
+  Ap1.vcxproj -> D:\Data\Advanced Programming\Project1\Ap1\x64\Debug\Ap1.exe
