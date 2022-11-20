@@ -1,0 +1,12 @@
+release/STCalandarWidget.o
+release/STDateWidget.o
+release/main.o
+release/mainwindow.o
+release/object.o
+release/scene.o
+release/unit.o
+release/qrc_Res.o
+release/moc_STCalandarWidget.o
+release/moc_STDateWidget.o
+release/moc_mainwindow.o
+release/moc_unit.o
