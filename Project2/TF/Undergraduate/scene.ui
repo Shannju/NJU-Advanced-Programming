@@ -13,38 +13,525 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="Unit" name="widget" native="true">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>180</y>
-     <width>120</width>
-     <height>80</height>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>671</height>
     </rect>
    </property>
-   <property name="styleSheet">
-    <string notr="true"/>
-   </property>
-  </widget>
-  <widget class="Unit" name="widget_2" native="true">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>290</y>
-     <width>120</width>
-     <height>80</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(85, 170, 0);</string>
-   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_8" stretch="1,0,9">
+    <item>
+     <widget class="Top" name="widget_85" native="true"/>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_60">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>一</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>二</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>三</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>四</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>五</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>六</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>日</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_12">
+        <item>
+         <widget class="QLabel" name="label_48">
+          <property name="text">
+           <string>0：00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_49">
+          <property name="text">
+           <string>2：00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_50">
+          <property name="text">
+           <string>4：00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_51">
+          <property name="text">
+           <string>6：00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_52">
+          <property name="text">
+           <string>8：00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_53">
+          <property name="text">
+           <string>10：00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_54">
+          <property name="text">
+           <string>12：00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_55">
+          <property name="text">
+           <string>14：00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_56">
+          <property name="text">
+           <string>16：00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_57">
+          <property name="text">
+           <string>18：00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_58">
+          <property name="text">
+           <string>20：00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_59">
+          <property name="text">
+           <string>22：00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="Unit" name="widget_9" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_11" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_6" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_5" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_7" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_8" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_4" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_2" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_10" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_3" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_12" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="Unit" name="widget_25" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_26" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_27" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_28" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_29" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_30" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_31" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_32" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_33" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_34" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_35" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_36" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="Unit" name="widget_49" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_50" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_51" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_52" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_53" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_54" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_55" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_56" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_57" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_58" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_59" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_60" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="Unit" name="widget_37" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_38" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_39" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_40" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_41" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_42" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_43" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_44" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_45" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_46" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_47" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_48" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="Unit" name="widget_73" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_74" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_75" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_76" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_77" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_78" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_79" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_80" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_81" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_82" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_83" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_84" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="Unit" name="widget_61" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_62" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_63" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_64" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_65" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_66" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_67" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_68" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_69" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_70" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_71" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_72" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="Unit" name="widget_13" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_14" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_15" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_16" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_17" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_18" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_19" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_20" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_21" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_22" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_23" native="true"/>
+        </item>
+        <item>
+         <widget class="Unit" name="widget_24" native="true"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
   </widget>
  </widget>
  <customwidgets>
   <customwidget>
    <class>Unit</class>
    <extends>QWidget</extends>
-   <header location="global">unit.h</header>
+   <header>unit.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Top</class>
+   <extends>QWidget</extends>
+   <header>top.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

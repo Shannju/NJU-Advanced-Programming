@@ -1,5 +1,20 @@
 <RCC>
     <qresource prefix="/">
         <file>image/calendar.PNG</file>
+        <file>image/gf.png</file>
+        <file>image/idol0.PNG</file>
+        <file>image/idol1.PNG</file>
+        <file>image/kk0.PNG</file>
+        <file>image/kk2.PNG</file>
+        <file>image/kk3.PNG</file>
+        <file>image/ss0.PNG</file>
+        <file>image/ss1.PNG</file>
+        <file>image/ss2.PNG</file>
+        <file>image/ss3.PNG</file>
+        <file>image/ycf.png</file>
+        <file>image/yst0.PNG</file>
+        <file>image/yst1.PNG</file>
+        <file>image/zy0.PNG</file>
+        <file>image/zy1.PNG</file>
     </qresource>
 </RCC>

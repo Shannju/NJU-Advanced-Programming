@@ -7,7 +7,7 @@
 #include"qpainter.h"
 #include<QPaintEvent>
 #include "scene.h"
-
+#include<iostream>
 #define enable_debug
 #ifdef enable_debug
 #define debug(s) {std::cerr<< s<<std::endl;}
@@ -33,5 +33,6 @@ protected:
 
 private slots:
     void on_pushButton_released();
+    void on_pushButton_4_released();
 };
 #endif // MAINWINDOW_H

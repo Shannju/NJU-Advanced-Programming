@@ -3,5 +3,8 @@
 Scene::Scene(QWidget *parent) :
     QWidget(parent)
 {
-    setupUi(this);
+    ui = new Ui::Scene;
+    ui->setupUi(this);
+
 }
+

@@ -3,6 +3,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
+    ui= new Ui::MainWindow;
     ui->setupUi(this);
     setFixedSize(1005,670);
     subWindow=nullptr;
@@ -27,10 +28,13 @@ void MainWindow::paintEvent(QPaintEvent*)
 
 void MainWindow::on_pushButton_released()
 {
-    this->hide();
     subWindow = new Scene();
     subWindow->show();
+}
 
 
+void MainWindow::on_pushButton_4_released()
+{
+    this->close();
 }
 

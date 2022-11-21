@@ -1,16 +1,15 @@
 #ifndef UNIT_H
 #define UNIT_H
 
-#include <QWidget>
+#include "ui_unit.h"
 
-class Unit : public QWidget
+class Unit : public QWidget, private Ui::Unit
 {
     Q_OBJECT
+private:
+      Ui::Unit * ui;
 public:
     explicit Unit(QWidget *parent = nullptr);
-
-signals:
-
 };
 
 #endif // UNIT_H
