@@ -9,6 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    bar.cpp \
     card.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -18,6 +19,7 @@ SOURCES += \
     unit.cpp
 
 HEADERS += \
+    bar.h \
     card.h \
     mainwindow.h \
     object.h \
@@ -26,6 +28,7 @@ HEADERS += \
     unit.h
 
 FORMS += \
+    bar.ui \
     card.ui \
     mainwindow.ui \
     scene.ui \

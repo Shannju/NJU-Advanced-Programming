@@ -2,14 +2,15 @@
 #define SQUARE_H
 
 #include <QLabel>
-
+#include <QString>
 #include<iostream>
 #include"qpainter.h"
 #include<QPaintEvent>
-#include <QString>
+#include<iostream>
+
 #define enable_debug
 #ifdef enable_debug
-#define debug(s) {std::cerr<< s<<std::endl;}
+#define debug(s) {qDebug()<< s<<'\n';}
 #else
 #define debug(...){}
 #endif
@@ -19,7 +20,7 @@ private:
     QString pic_name;
 public:
     Square(QWidget *parent = nullptr);
-
+    void setPic(QString name);
     void paintEvent(QPaintEvent*);
 };
 

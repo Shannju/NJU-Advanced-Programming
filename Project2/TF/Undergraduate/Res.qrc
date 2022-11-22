@@ -16,5 +16,12 @@
         <file>image/yst1.PNG</file>
         <file>image/zy0.PNG</file>
         <file>image/zy1.PNG</file>
+        <file>image/alert_grey.png</file>
+        <file>image/alert_red.png</file>
+        <file>image/alert_yellow.png</file>
+        <file>image/heart.png</file>
+        <file>image/phi.png</file>
+        <file>image/point.png</file>
+        <file>image/zhishi.png</file>
     </qresource>
 </RCC>

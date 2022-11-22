@@ -35,14 +35,29 @@
        <number>0</number>
       </property>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,0,0,4">
+       <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0">
         <property name="spacing">
          <number>0</number>
         </property>
         <item>
          <widget class="QLabel" name="week">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>63</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>98</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <property name="text">
            <string>1/4 Week</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -50,8 +65,14 @@
          <widget class="Square" name="avatar">
           <property name="minimumSize">
            <size>
-            <width>63</width>
+            <width>0</width>
             <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>63</width>
+            <height>16777215</height>
            </size>
           </property>
           <property name="text">
@@ -60,54 +81,25 @@
          </widget>
         </item>
         <item>
-         <widget class="QFrame" name="frame">
-          <property name="frameShape">
-           <enum>QFrame::StyledPanel</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
-          </property>
+         <widget class="Bar" name="bar" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_9">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+          </layout>
          </widget>
-        </item>
-        <item>
-         <layout class="QVBoxLayout" name="verticalLayout_9">
-          <property name="spacing">
-           <number>0</number>
-          </property>
-          <item>
-           <widget class="Card" name="widget_85" native="true">
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true"/>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="Card" name="widget_86" native="true">
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>20</height>
-             </size>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="Card" name="widget_87" native="true">
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>20</height>
-             </size>
-            </property>
-           </widget>
-          </item>
-         </layout>
         </item>
        </layout>
       </item>
@@ -683,6 +675,12 @@
    <class>Square</class>
    <extends>QLabel</extends>
    <header location="global">square.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Bar</class>
+   <extends>QWidget</extends>
+   <header location="global">bar.h</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources/>
