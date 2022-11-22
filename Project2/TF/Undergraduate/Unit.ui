@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>736</width>
-    <height>356</height>
+    <width>363</width>
+    <height>253</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,33 +16,64 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(255, 255, 255);</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="mainWidget" native="true">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>70</y>
-     <width>391</width>
-     <height>111</height>
+     <x>0</x>
+     <y>0</y>
+     <width>92</width>
+     <height>42</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,1">
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="sizeConstraint">
+     <enum>QLayout::SetNoConstraint</enum>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
     <item>
      <widget class="QLabel" name="activity">
+      <property name="minimumSize">
+       <size>
+        <width>42</width>
+        <height>0</height>
+       </size>
+      </property>
       <property name="text">
        <string>活动</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QLabel" name="company">
+     <widget class="Square" name="label">
       <property name="text">
-       <string>TextLabel</string>
+       <string/>
       </property>
      </widget>
     </item>
    </layout>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Square</class>
+   <extends>QLabel</extends>
+   <header location="global">square.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

@@ -14,7 +14,7 @@ SOURCES += \
     mainwindow.cpp \
     object.cpp \
     scene.cpp \
-    top.cpp \
+    square.cpp \
     unit.cpp
 
 HEADERS += \
@@ -22,14 +22,13 @@ HEADERS += \
     mainwindow.h \
     object.h \
     scene.h \
-    top.h \
+    square.h \
     unit.h
 
 FORMS += \
     card.ui \
     mainwindow.ui \
     scene.ui \
-    top.ui \
     unit.ui
 
 # Default rules for deployment.
@@ -40,8 +39,3 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 RESOURCES += \
     Res.qrc
 
-QMAKE_CXXFLAGS_RELEASE += -g
-
-QMAKE_CFLAGS_RELEASE += -g
-
-QMAKE_LFLAGS_RELEASE = -mthreads -Wl

@@ -6,3 +6,4 @@ Unit::Unit(QWidget *parent) :
     ui=new Ui::Unit;
     ui->setupUi(this);
 }
+

@@ -6,9 +6,10 @@
 class Unit : public QWidget, private Ui::Unit
 {
     Q_OBJECT
-private:
-      Ui::Unit * ui;
+
+
 public:
+    Ui::Unit * ui;
     explicit Unit(QWidget *parent = nullptr);
 };
 

@@ -2,6 +2,7 @@
 #define SCENE_H
 
 #include "ui_scene.h"
+
 #include<iostream>
 #define enable_debug
 #ifdef enable_debug
