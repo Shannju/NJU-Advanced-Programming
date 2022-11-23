@@ -3,7 +3,7 @@
 
 Card::Card(QWidget *parent) : QWidget(parent)
 {
-    this->pic_name="";
+    this->pic_name=":image/ss0.png";
     ui = new Ui::Card;
 
     ui->setupUi(this);

@@ -14,6 +14,7 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     object.cpp \
+    random.cpp \
     scene.cpp \
     square.cpp \
     unit.cpp
@@ -23,6 +24,7 @@ HEADERS += \
     card.h \
     mainwindow.h \
     object.h \
+    random.h \
     scene.h \
     square.h \
     unit.h

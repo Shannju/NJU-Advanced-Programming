@@ -10,6 +10,7 @@ class Unit : public QWidget, private Ui::Unit
 
 public:
     Ui::Unit * ui;
+     void setPic(QString name);
     explicit Unit(QWidget *parent = nullptr);
 };
 

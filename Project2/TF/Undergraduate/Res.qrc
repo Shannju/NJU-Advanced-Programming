@@ -1,27 +1,29 @@
 <RCC>
     <qresource prefix="/">
-        <file>image/calendar.PNG</file>
-        <file>image/gf.png</file>
-        <file>image/idol0.PNG</file>
-        <file>image/idol1.PNG</file>
-        <file>image/kk0.PNG</file>
-        <file>image/kk2.PNG</file>
-        <file>image/kk3.PNG</file>
-        <file>image/ss0.PNG</file>
-        <file>image/ss1.PNG</file>
-        <file>image/ss2.PNG</file>
-        <file>image/ss3.PNG</file>
-        <file>image/ycf.png</file>
-        <file>image/yst0.PNG</file>
-        <file>image/yst1.PNG</file>
-        <file>image/zy0.PNG</file>
-        <file>image/zy1.PNG</file>
         <file>image/alert_grey.png</file>
         <file>image/alert_red.png</file>
         <file>image/alert_yellow.png</file>
+        <file>image/calendar.png</file>
+        <file>image/gf.png</file>
         <file>image/heart.png</file>
+        <file>image/idol0.png</file>
+        <file>image/idol1.png</file>
+        <file>image/kk0.png</file>
+        <file>image/kk1.png</file>
+        <file>image/kk2.png</file>
+        <file>image/kk3.png</file>
         <file>image/phi.png</file>
         <file>image/point.png</file>
+        <file>image/ss0.png</file>
+        <file>image/ss1.png</file>
+        <file>image/ss2.png</file>
+        <file>image/ss3.png</file>
+        <file>image/ycf.png</file>
+        <file>image/yst0.png</file>
+        <file>image/yst1.png</file>
         <file>image/zhishi.png</file>
+        <file>image/zy0.png</file>
+        <file>image/zy1.png</file>
+        <file>image/m7m.png</file>
     </qresource>
 </RCC>

@@ -51,12 +51,13 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="bar_life_2">
+       <widget class="QLabel" name="bar_life">
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(170, 0, 0);</string>
+         <string notr="true">background-color: rgb(195, 0, 0);
+color: rgb(255, 255, 255);</string>
         </property>
         <property name="text">
-         <string>TextLabel</string>
+         <string>生命</string>
         </property>
        </widget>
       </item>
@@ -76,8 +77,12 @@
       </item>
       <item>
        <widget class="QLabel" name="bar_zhishi">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(85, 85, 127);
+color: rgb(255, 255, 255);</string>
+        </property>
         <property name="text">
-         <string>TextLabel</string>
+         <string>知识</string>
         </property>
        </widget>
       </item>
@@ -97,8 +102,12 @@
       </item>
       <item>
        <widget class="QLabel" name="bar_phi">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 85, 127);
+color: rgb(255, 255, 255);</string>
+        </property>
         <property name="text">
-         <string>TextLabel</string>
+         <string>存在主义危机</string>
         </property>
        </widget>
       </item>

@@ -2,7 +2,7 @@
 
 Square::Square(QWidget *parent)
 {
-    this->pic_name="";
+    this->pic_name=":image/ss0.png";
     this->setBaseSize(std::min(height(),parent->height()),std::min(height(),parent->height()));
 }
 

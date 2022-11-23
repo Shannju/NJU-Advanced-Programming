@@ -8,12 +8,12 @@
 #include<QPaintEvent>
 #include "scene.h"
 #include<iostream>
-#define enable_debug
-#ifdef enable_debug
-#define debug(s) {std::cerr<< s<<std::endl;}
-#else
-#define debug(...){}
-#endif
+#include<time.h>
+#include<QVector>
+#include<random.h>
+#include<QTimerEvent>
+
+
 
 namespace Ui
 {
@@ -25,14 +25,21 @@ class MainWindow : public QMainWindow, private Ui::MainWindow
 private:
         Ui::MainWindow* ui;
         Scene* subWindow;
+        QTimer *timer;
+        int counter;
+          QVector<QString> picList;
+          void setList();
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+void timerDone();
 protected:
     void paintEvent(QPaintEvent*);
 
 private slots:
     void on_pushButton_released();
     void on_pushButton_4_released();
+
 };
+
 #endif // MAINWINDOW_H

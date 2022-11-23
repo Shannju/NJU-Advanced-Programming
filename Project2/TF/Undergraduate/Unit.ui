@@ -58,7 +58,7 @@
      </widget>
     </item>
     <item>
-     <widget class="Square" name="label">
+     <widget class="Square" name="icon">
       <property name="text">
        <string/>
       </property>
