@@ -7,13 +7,6 @@
 #include"qpainter.h"
 #include<QPaintEvent>
 #include<iostream>
-
-#define enable_debug
-#ifdef enable_debug
-#define debug(s) {qDebug()<< s<<'\n';}
-#else
-#define debug(...){}
-#endif
 class Square : public QLabel
 {
 private:

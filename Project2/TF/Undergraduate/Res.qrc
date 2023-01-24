@@ -25,5 +25,32 @@
         <file>image/zy0.png</file>
         <file>image/zy1.png</file>
         <file>image/m7m.png</file>
+        <file>image/blackboard.png</file>
+        <file>image/s_blue.png</file>
+        <file>image/s_green.png</file>
+        <file>image/s_pink.png</file>
+        <file>image/s_white.png</file>
+        <file>image/s_yel.png</file>
+        <file>image/selected.png</file>
+        <file>image/yel.png</file>
+        <file>image/blue.png</file>
+        <file>image/ddl.png</file>
+        <file>image/green.png</file>
+        <file>image/pink.png</file>
+        <file>image/empty.png</file>
+        <file>image/buf1.png</file>
+        <file>image/buf3.png</file>
+        <file>image/buf4.png</file>
+        <file>image/far1.png</file>
+        <file>image/far2.png</file>
+        <file>image/s_red.png</file>
+        <file>image/buf2.png</file>
+        <file>image/far3.png</file>
+        <file>image/blue_selected.png</file>
+        <file>image/ddl_selected.png</file>
+        <file>image/green_selected.png</file>
+        <file>image/pink_selected.png</file>
+        <file>image/rainbow.png</file>
+        <file>image/yel_selected.png</file>
     </qresource>
 </RCC>

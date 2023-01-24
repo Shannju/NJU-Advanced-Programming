@@ -26,10 +26,10 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui= new Ui::MainWindow;
     ui->setupUi(this);
-    setFixedSize(1005,670);
+    setFixedSize(1193,795);
     subWindow=nullptr;
     timer = new QTimer(this);
-setList();
+    setList();
 
     connect(timer, &QTimer::timeout, this, QOverload<>::of(&MainWindow::timerDone));
     timer->start(1000);
@@ -50,13 +50,13 @@ void MainWindow::timerDone()
         int r = randomInt(0,picList.size()-1);
         switch (randomInt(0,2)) {
         case 0:
-        ui->label_3->setPic(picList[r]);
+            ui->label_3->setPic(picList[r]);
             break;
         case 1:
-        ui->label_4->setPic(picList[r]);
+            ui->label_4->setPic(picList[r]);
             break;
         case 2:
-        ui->label_6->setPic(picList[r]);
+            ui->label_6->setPic(picList[r]);
             break;
         default:
             break;
@@ -89,3 +89,6 @@ void MainWindow::on_pushButton_4_released()
 {
     this->close();
 }
+
+
+

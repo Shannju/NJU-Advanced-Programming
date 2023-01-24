@@ -2,8 +2,9 @@
 #define RANDOM_H
 
 #include <cstdlib>
-#include <Qtime>
+#include <QTime>
 
 
 int randomInt(int a, int b);
+int randomBool(int a);
 #endif // RANDOM_H

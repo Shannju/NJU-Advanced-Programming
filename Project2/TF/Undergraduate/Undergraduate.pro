@@ -9,32 +9,28 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    bar.cpp \
-    card.cpp \
+    graphscene.cpp \
     main.cpp \
     mainwindow.cpp \
+    mygraphicsview.cpp \
     object.cpp \
     random.cpp \
     scene.cpp \
-    square.cpp \
-    unit.cpp
+    square.cpp
 
 HEADERS += \
-    bar.h \
-    card.h \
+    Marcos.h \
+    graphscene.h \
     mainwindow.h \
+    mygraphicsview.h \
     object.h \
     random.h \
     scene.h \
-    square.h \
-    unit.h
+    square.h
 
 FORMS += \
-    bar.ui \
-    card.ui \
     mainwindow.ui \
-    scene.ui \
-    unit.ui
+    scene.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
